@@ -1,0 +1,16 @@
+{
+  "Group": "ArefyEconomy",
+  "Name": "ArefyEconomy",
+  "Version": "1.0.0",
+  "Description": "Economy plugin for Hytale with balance HUD display",
+  "Authors": [{"Name": "xNekio"}],
+  "Website": "https://arefy.net",
+  "ServerVersion": "*",
+  "Dependencies": {
+    "Hytale:EntityModule": "*"
+  },
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "Main": "com.arefyeconomy.Main",
+  "IncludesAssetPack": true
+}

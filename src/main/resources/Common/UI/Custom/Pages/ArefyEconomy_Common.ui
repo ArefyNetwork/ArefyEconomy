@@ -1,0 +1,85 @@
+// ArefyEconomy Common Styles
+// Importa este archivo en otras UIs: $E = "ArefyEconomy_Common.ui";
+
+// === Color Palette ===
+@ArefyGold = #FFD700;
+@ArefyGreen = #32CD32;
+@ArefyRed = #FF4444;
+@ArefyBgDark = #1a1a2edd;
+@ArefyBgCard = #16213ecc;
+@ArefyTextWhite = #ffffff;
+@ArefyTextGray = #888888;
+
+// === Label Styles ===
+@ArefyTitleStyle = LabelStyle(
+  FontSize: 16,
+  TextColor: @ArefyGold,
+  RenderBold: true,
+  HorizontalAlignment: Center
+);
+
+@ArefyBalanceStyle = LabelStyle(
+  FontSize: 20,
+  TextColor: @ArefyGreen,
+  RenderBold: true,
+  HorizontalAlignment: Center
+);
+
+@ArefyLabelStyle = LabelStyle(
+  FontSize: 13,
+  TextColor: @ArefyTextWhite,
+  RenderBold: false
+);
+
+@ArefyLabelBoldStyle = LabelStyle(
+  FontSize: 13,
+  TextColor: @ArefyTextWhite,
+  RenderBold: true
+);
+
+@ArefyLabelGrayStyle = LabelStyle(
+  FontSize: 11,
+  TextColor: @ArefyTextGray,
+  RenderBold: false
+);
+
+// === Button Styles ===
+@ArefyButtonLabelStyle = LabelStyle(
+  FontSize: 12,
+  TextColor: @ArefyTextWhite,
+  RenderBold: true,
+  RenderUppercase: true,
+  HorizontalAlignment: Center,
+  VerticalAlignment: Center
+);
+
+@ArefyButtonStyle = TextButtonStyle(
+  Default: (Background: (Color: #2b3f66), LabelStyle: @ArefyButtonLabelStyle),
+  Hovered: (Background: (Color: #35507f), LabelStyle: @ArefyButtonLabelStyle),
+  Pressed: (Background: (Color: #233553), LabelStyle: @ArefyButtonLabelStyle),
+  Disabled: (Background: (Color: #333333), LabelStyle: @ArefyButtonLabelStyle)
+);
+
+@ArefyButtonGreenStyle = TextButtonStyle(
+  Default: (Background: (Color: #1f6b3a), LabelStyle: @ArefyButtonLabelStyle),
+  Hovered: (Background: (Color: #278348), LabelStyle: @ArefyButtonLabelStyle),
+  Pressed: (Background: (Color: #19592f), LabelStyle: @ArefyButtonLabelStyle),
+  Disabled: (Background: (Color: #333333), LabelStyle: @ArefyButtonLabelStyle)
+);
+
+@ArefyButtonRedStyle = TextButtonStyle(
+  Default: (Background: (Color: #7a2b2b), LabelStyle: @ArefyButtonLabelStyle),
+  Hovered: (Background: (Color: #933737), LabelStyle: @ArefyButtonLabelStyle),
+  Pressed: (Background: (Color: #662424), LabelStyle: @ArefyButtonLabelStyle),
+  Disabled: (Background: (Color: #333333), LabelStyle: @ArefyButtonLabelStyle)
+);
+
+@ArefyButtonAccentStyle = TextButtonStyle(
+  Default: (Background: (Color: #b8860b), LabelStyle: @ArefyButtonLabelStyle),
+  Hovered: (Background: (Color: #daa520), LabelStyle: @ArefyButtonLabelStyle),
+  Pressed: (Background: (Color: #8b6914), LabelStyle: @ArefyButtonLabelStyle),
+  Disabled: (Background: (Color: #333333), LabelStyle: @ArefyButtonLabelStyle)
+);
+
+// === Card/Container Styles ===
+@ArefyCardBackground = (Color: @ArefyBgCard);

@@ -1,0 +1,10 @@
+[
+  "Common/UI/Custom/Pages/ArefyEconomy_AdminPage.ui",
+  "Common/UI/Custom/Pages/ArefyEconomy_AdminPlayerEntry.ui",
+  "Common/UI/Custom/Pages/ArefyEconomy_AdminTopEntry.ui",
+  "Common/UI/Custom/Pages/ArefyEconomy_BalanceHud.ui",
+  "Common/UI/Custom/Pages/ArefyEconomy_Common.ui",
+  "Common/UI/Custom/Pages/ArefyEconomy_PayPage.ui",
+  "Common/UI/Custom/Pages/ArefyEconomy_PayPlayerEntry.ui",
+  "assets/arefyeconomy/textures/gui/hud/tile000.png"
+]
