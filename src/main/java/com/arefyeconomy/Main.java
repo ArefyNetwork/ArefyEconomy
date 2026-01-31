@@ -2,6 +2,7 @@ package com.arefyeconomy;
 
 import com.arefyeconomy.api.ArefyEconomyAPI;
 import com.arefyeconomy.commands.BalanceCommand;
+import com.arefyeconomy.commands.BaltopCommand;
 import com.arefyeconomy.commands.ArefyAdminCommand;
 import com.arefyeconomy.commands.PayCommand;
 import com.arefyeconomy.config.ArefyEconomyConfig;
@@ -64,6 +65,7 @@ public class Main extends JavaPlugin {
         
         // Register commands
         this.getCommandRegistry().registerCommand(new BalanceCommand());
+        this.getCommandRegistry().registerCommand(new BaltopCommand());
         this.getCommandRegistry().registerCommand(new PayCommand());
         this.getCommandRegistry().registerCommand(new ArefyAdminCommand());
         

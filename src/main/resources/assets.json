@@ -3,6 +3,7 @@
   "Common/UI/Custom/Pages/ArefyEconomy_AdminPlayerEntry.ui",
   "Common/UI/Custom/Pages/ArefyEconomy_AdminTopEntry.ui",
   "Common/UI/Custom/Pages/ArefyEconomy_BalanceHud.ui",
+  "Common/UI/Custom/Pages/ArefyEconomy_BaltopPage.ui",
   "Common/UI/Custom/Pages/ArefyEconomy_Common.ui",
   "Common/UI/Custom/Pages/ArefyEconomy_PayPage.ui",
   "Common/UI/Custom/Pages/ArefyEconomy_PayPlayerEntry.ui",
