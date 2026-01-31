@@ -136,6 +136,9 @@ public class Messages {
         // === TOP TAB ===
         m.put("gui.top.no_data", "No data available");
 
+        // === BALTOP ===
+        m.put("gui.baltop.title", "Balance Top");
+
         // === LOG TAB ===
         m.put("gui.log.filter_label", "Filter");
         m.put("gui.log.loading", "Loading...");

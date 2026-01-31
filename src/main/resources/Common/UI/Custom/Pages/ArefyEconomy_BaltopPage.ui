@@ -1,0 +1,68 @@
+$E = "ArefyEconomy_Common.ui";
+
+Group #BaltopRoot {
+  Anchor: (Left: 0, Top: 0, Right: 0, Bottom: 0);
+  LayoutMode: Center;
+
+  Group #BaltopCard {
+    Anchor: (Width: 400, Height: 420);
+    Background: (Color: #1a1a2eee);
+    LayoutMode: Top;
+    OutlineColor: #3a4a6a;
+    OutlineSize: 1;
+
+    // === Header ===
+    Group #Header {
+      LayoutMode: Left;
+      Background: (Color: #0f1525);
+      Padding: (Top: 12, Bottom: 12, Left: 16, Right: 16);
+      Anchor: (Height: 48);
+
+      Label #Title {
+        Text: "Balance Top";
+        Style: (FontSize: 18, TextColor: #FFD700, RenderBold: true);
+        FlexWeight: 1;
+        Anchor: (Vertical: 0);
+      }
+
+      TextButton #CloseButton {
+        Text: "X";
+        Style: $E.@ArefyButtonRedStyle;
+        Anchor: (Width: 28, Height: 28);
+      }
+    }
+
+    // === Top Content ===
+    Group #TopContent {
+      LayoutMode: Top;
+      Padding: (Top: 12, Left: 16, Right: 16, Bottom: 16);
+      FlexWeight: 1;
+
+      // Headers
+      Group #TopHeaders {
+        LayoutMode: Left;
+        Background: (Color: #0f1525);
+        Padding: (Top: 6, Bottom: 6, Left: 12, Right: 12);
+        Anchor: (Height: 28, Bottom: 4);
+
+        Label { Text: "#"; Style: (FontSize: 11, TextColor: #888888, RenderBold: true); Anchor: (Width: 36); }
+        Label { Text: "Player"; Style: (FontSize: 11, TextColor: #888888, RenderBold: true); FlexWeight: 1; }
+        Label { Text: "Balance"; Style: (FontSize: 11, TextColor: #888888, RenderBold: true); Anchor: (Width: 120); }
+      }
+
+      // Top List Container
+      Group #TopListContainer {
+        LayoutMode: TopScrolling;
+        Background: (Color: #0f1525);
+        FlexWeight: 1;
+        Padding: (Top: 4, Bottom: 4, Left: 12, Right: 12);
+        OutlineColor: #3a4a6a;
+        OutlineSize: 1;
+
+        Group #TopList {
+          LayoutMode: Top;
+        }
+      }
+    }
+  }
+}
